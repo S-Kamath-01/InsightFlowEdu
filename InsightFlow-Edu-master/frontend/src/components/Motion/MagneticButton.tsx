@@ -4,10 +4,9 @@
  */
 
 import React, { useRef, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, type HTMLMotionProps } from 'framer-motion';
 
-interface MagneticButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'onAnimationStart'> {
-  children: React.ReactNode;
+interface MagneticButtonProps extends HTMLMotionProps<'button'> {
   className?: string;
   strength?: number;
 }
@@ -16,7 +15,6 @@ export const MagneticButton: React.FC<MagneticButtonProps> = ({
   children,
   className = '',
   strength = 0.2,
-  onClick,
   ...rest
 }) => {
   const ref = useRef<HTMLButtonElement>(null);
@@ -41,11 +39,10 @@ export const MagneticButton: React.FC<MagneticButtonProps> = ({
       ref={ref}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      onClick={onClick}
       animate={{ x: position.x, y: position.y }}
       transition={{ type: 'spring', stiffness: 150, damping: 15 }}
       className={className}
-      {...(rest as React.ButtonHTMLAttributes<HTMLButtonElement>)}
+      {...rest}
     >
       {children}
     </motion.button>
