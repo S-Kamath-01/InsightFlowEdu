@@ -81,6 +81,70 @@ Provides visual summaries through charts, metrics, and performance indicators.
 
 ---
 
+## 📸 Application Previews
+
+> Screenshots below showcase the platform's UI across key modules.  
+> The **Login** and **Get Started** pages appear identically in both light and dark mode.  
+> The **Dashboard** is shown in both modes; all other modules are shown in light mode.
+
+---
+
+### 🔐 Login & Onboarding
+
+| Get Started | Login / Welcome Back |
+|:-----------:|:--------------------:|
+| ![Get Started](images/get_started.png) | ![Login](images/login.png) |
+
+---
+
+### 📊 Dashboard
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![Dashboard – Light](images/dashboard_light.png) | ![Dashboard – Dark](images/dashboard_dark.png) |
+
+---
+
+### 👥 Student & Admin Management
+
+| Students Panel | Admin Panel |
+|:--------------:|:-----------:|
+| ![Students](images/students_light.png) | ![Admin](images/admin_light.png) |
+
+---
+
+### ⚠️ Risk Analysis & Interventions
+
+| Risk Panel | Interventions |
+|:----------:|:-------------:|
+| ![Risk Panel](images/Risk_panel_light.png) | ![Interventions](images/interventions_light.png) |
+
+---
+
+### 💬 Feedback & Messaging
+
+| Feedback Analyzer | Messages |
+|:-----------------:|:--------:|
+| ![Feedback Analyzer](images/feedback_analyzer_light.png) | ![Messages](images/messages_light.png) |
+
+---
+
+### 🛠️ IT & Support
+
+| IT Console | IT Support |
+|:----------:|:----------:|
+| ![IT Console](images/it_console_light.png) | ![IT Support](images/IT_support_light.png) |
+
+---
+
+### 👤 Profile & Contact
+
+| My Profile | Contact Us |
+|:----------:|:----------:|
+| ![My Profile](images/my_profile_light.png) | ![Contact Us](images/contact_us_light.png) |
+
+---
+
 ## ⚙️ Tech Stack
 
 ### Frontend
@@ -200,6 +264,22 @@ InsightFlow-Edu/
 │       └── pom.xml
 │
 ├── database/
+│
+├── images/
+│   ├── get_started.png
+│   ├── login.png
+│   ├── dashboard_light.png
+│   ├── dashboard_dark.png
+│   ├── students_light.png
+│   ├── admin_light.png
+│   ├── Risk_panel_light.png
+│   ├── interventions_light.png
+│   ├── feedback_analyzer_light.png
+│   ├── messages_light.png
+│   ├── it_console_light.png
+│   ├── IT_support_light.png
+│   ├── my_profile_light.png
+│   └── contact_us_light.png
 │
 ├── SRS/
 │
