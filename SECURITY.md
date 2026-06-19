@@ -1,7 +1,7 @@
 # Security Policy
 
 ## Supported Versions
-This repository is maintained as a portfolio= project. Security fixes will be applied to the latest published version of the repository.
+This repository is maintained as a portfolio project. Security fixes will be applied to the latest published version of the repository.
 
 ## Reporting a Vulnerability
 If you find a security issue, do not post exploit details publicly.
